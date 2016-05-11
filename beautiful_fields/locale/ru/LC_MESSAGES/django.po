@@ -1,0 +1,1788 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-26 15:50+0400\n"
+"PO-Revision-Date: 2013-10-24 14:12+0400\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.5.6\n"
+
+#: fields.py:39
+msgid "Enter a valid start value."
+msgstr "Задайте корректное начальное значение"
+
+#: fields.py:40
+msgid "Enter a valid end value."
+msgstr "Задайте корректное конечное значение"
+
+#: fields.py:41
+msgid "Ensure that start value of range is less than or equal end value."
+msgstr "Убедитесь что начальное значение меньше конечного значения."
+
+#: fields.py:42
+#, python-format
+msgid ""
+"Ensure that end value of range is less than or equal to %(limit_value)s."
+msgstr ""
+"Убедитесь, что конечное значение диапазона меньше или равно  %(limit_value)s."
+
+#: fields.py:43
+#, python-format
+msgid ""
+"Ensure that start value of range is greater than or equal to %(limit_value)s."
+msgstr ""
+"Убедитесь, что начальное значение диапазона больше или равно %(limit_value)s."
+
+#: fields.py:118
+msgid "Enter a valid phone number."
+msgstr "Задайте корректный телефон"
+
+#: validators.py:11
+msgid "The phone number entered is not valid."
+msgstr "Введенный номер не соответствует формату."
+
+#: models/__init__.py:45
+msgid "Phone number"
+msgstr "Телефон"
+
+#~ msgid "Russian"
+#~ msgstr "Русский"
+
+#~ msgid "English"
+#~ msgstr "English"
+
+#~ msgid "Index Template"
+#~ msgstr "Шаблон «Индексная страница»"
+
+#~ msgid "Full Width Template"
+#~ msgstr "Шаблон «Без бокового блока»"
+
+#~ msgid "Page With Sidebar Template"
+#~ msgstr "Шаблон «С боковым блоком»"
+
+#~ msgid "main content"
+#~ msgstr "Основное содержимое"
+
+#~ msgid "sidebar"
+#~ msgstr "Боковая панель"
+
+#~ msgid "footer links"
+#~ msgstr "Ссылки в подвале"
+
+#~ msgid "left block"
+#~ msgstr "Левый блок"
+
+#~ msgid "right block"
+#~ msgstr "Правый блок"
+
+#~ msgid "left extras block"
+#~ msgstr "Левый блок в подвале"
+
+#~ msgid "center extras block"
+#~ msgstr "Центральный блок в подвале"
+
+#~ msgid "right extras block"
+#~ msgstr "Правый блок в подвале"
+
+#~ msgid "Address"
+#~ msgstr "Адрес"
+
+#~ msgid "Phone numbers must be in +7-XXX-XXX-XXXX format."
+#~ msgstr "Номер телефона должен быть в формате +7-ХХХ-ХХХ-ХХХХ."
+
+#~ msgid "FIO"
+#~ msgstr "ФИО"
+
+#~ msgid "e-mail address"
+#~ msgstr "Адрес электронной почты"
+
+#~ msgid "Password"
+#~ msgstr "Пароль"
+
+#~ msgid "Repeat password"
+#~ msgstr "Повторить пароль"
+
+#~ msgid "Address2"
+#~ msgstr "Адрес (строка 2)"
+
+#~ msgid "Zip Code"
+#~ msgstr "Индекс"
+
+#~ msgid "City"
+#~ msgstr "Город"
+
+#~ msgid "State"
+#~ msgstr "Регион / область"
+
+#~ msgid "Country"
+#~ msgstr "Страна"
+
+#~ msgid "I'm agreed with"
+#~ msgstr "Я принимаю"
+
+#~ msgid "The two password fields didn't match."
+#~ msgstr "Введенные пароли не совпадают"
+
+#~ msgid "E-mail \"%s\" already registered!"
+#~ msgstr "Электронная почта \"%s\" уже зарегистрирована!"
+
+#~ msgid "Invoce"
+#~ msgstr "Новый"
+
+#~ msgid "Confirmed"
+#~ msgstr "Подтвержден"
+
+#~ msgid "Banned"
+#~ msgstr "Заблокирован"
+
+#~ msgid "User status"
+#~ msgstr "Статус пользователя"
+
+#~ msgid "profile is active"
+#~ msgstr "Профиль активен"
+
+#~ msgid "profile for user: %s"
+#~ msgstr "профиль пользователя: %s"
+
+#~ msgid "user profile"
+#~ msgstr "профиль пользователя"
+
+#~ msgid "users profiles"
+#~ msgstr "профили пользователей"
+
+#~ msgid "manager profile"
+#~ msgstr "профиль менеджера"
+
+#~ msgid "managers profiles"
+#~ msgstr "профили менеджеров"
+
+#~ msgid "customer profile"
+#~ msgstr "профиль покупателя"
+
+#~ msgid "customers profiles"
+#~ msgstr "профили покупателей"
+
+#~ msgid "host"
+#~ msgstr "Адрес почтового сервера"
+
+#~ msgid "port"
+#~ msgstr "Порт"
+
+#~ msgid "auth user"
+#~ msgstr "Пользователь"
+
+#~ msgid "auth password"
+#~ msgstr "Пароль"
+
+#~ msgid "from email"
+#~ msgstr "email отправителя"
+
+#~ msgid "subject"
+#~ msgstr "Тема"
+
+#~ msgid "mail setting for send mail"
+#~ msgstr "настройки для отправки почты"
+
+#~ msgid "mail settings for send mail"
+#~ msgstr "настройки для отправки почты"
+
+#~ msgid "mail setting for %s"
+#~ msgstr "Настройки почты для ящика %s"
+
+#~ msgid "User logout"
+#~ msgstr "Пользователь вышел"
+
+#~ msgid "Can not logout"
+#~ msgstr "Невозможно выйти"
+
+#~ msgid "User was banned!"
+#~ msgstr "Пользователь заблокирован администратором!"
+
+#~ msgid "User not active"
+#~ msgstr "Пользователь заблокирован"
+
+#~ msgid "No such user or password incorrect"
+#~ msgstr "Имя пользователя или пароль неверны"
+
+#~ msgid "links"
+#~ msgstr "ссылки"
+
+#~ msgid "slider plugin"
+#~ msgstr "Плагин «Слайдер»"
+
+#~ msgid "page"
+#~ msgstr "страница"
+
+#~ msgid "if present has thirst priority"
+#~ msgstr "если есть, то имеет приоритет 3"
+
+#~ msgid "events"
+#~ msgstr "событие"
+
+#~ msgid "if present has second priority"
+#~ msgstr "если есть, то имеет приоритет 2"
+
+#~ msgid "link"
+#~ msgstr "ссылка"
+
+#~ msgid "if present has first priority"
+#~ msgstr "если есть, то имеет приоритет 1"
+
+#~ msgid "title"
+#~ msgstr "заголовок"
+
+#~ msgid "title of slide"
+#~ msgstr "Заголовок слайда"
+
+#~ msgid "description"
+#~ msgstr "описание"
+
+#~ msgid "text description of slide"
+#~ msgstr "текстовое описание на слайде"
+
+#~ msgid "slide image"
+#~ msgstr "слайд"
+
+#~ msgid "image for slide"
+#~ msgstr "Изображение  в слайде"
+
+#~ msgid "position"
+#~ msgstr "Позиция"
+
+#~ msgid "slide"
+#~ msgstr "cлайд"
+
+#~ msgid "slides"
+#~ msgstr "Слайды"
+
+#~ msgid "slide: %s"
+#~ msgstr "cлайд: %s"
+
+#~ msgid "slider plugins"
+#~ msgstr "Плагин «Слайдер»"
+
+#~ msgid "Once"
+#~ msgstr "Однократно"
+
+#~ msgid "Simple FeedBack Form"
+#~ msgstr "Простая форма обратной связи"
+
+#~ msgid "Feed back"
+#~ msgstr "Обратная связь"
+
+#~ msgid "An application was received for processing"
+#~ msgstr "Сообщение успешно отправлено."
+
+#~ msgid "The message could not be sent."
+#~ msgstr "Сообщение не было отправлено!"
+
+#~ msgid "Phone"
+#~ msgstr "Телефон"
+
+#~ msgid "E-mail"
+#~ msgstr "Электронная почта"
+
+#~ msgid "Message"
+#~ msgstr "Сообщение"
+
+#~ msgid "Email for incoming messages"
+#~ msgstr "Email для входящих сообщений"
+
+#~ msgid "Email host"
+#~ msgstr "Адрес сервера"
+
+#~ msgid "Email host port"
+#~ msgstr "Порт"
+
+#~ msgid "Email host user"
+#~ msgstr "Пользователь"
+
+#~ msgid "Email host password"
+#~ msgstr "Пароль"
+
+#~ msgid "FeedBack Form"
+#~ msgstr "Форма обратной связи"
+
+#~ msgid "FeedBack Forms"
+#~ msgstr "Формы обратной связи"
+
+#~ msgid "Template Picture"
+#~ msgstr "Шаблон «Изображение»"
+
+#~ msgid "image"
+#~ msgstr "изображение"
+
+#~ msgid "if present image will be clickable"
+#~ msgstr "Если установлено то изображение будет ссылкой"
+
+#~ msgid "alternate text"
+#~ msgstr "альтернативный текст"
+
+#~ msgid "textual description of the image"
+#~ msgstr "текстовое описание изображения"
+
+#~ msgid "short description"
+#~ msgstr "краткое описание"
+
+#~ msgid "short description of the image"
+#~ msgstr "короткое описание изображения"
+
+#~ msgid "long description"
+#~ msgstr "полное описание"
+
+#~ msgid "additional description of the image"
+#~ msgstr "дополнительное описание изображения"
+
+#~ msgid "thumbnail width"
+#~ msgstr "Ширина уменьшенного изображения"
+
+#~ msgid "thumbnail height"
+#~ msgstr "Высота изображения"
+
+#~ msgid "template"
+#~ msgstr "шаблон"
+
+#~ msgid "template picture"
+#~ msgstr "Шаблон «Изображение»"
+
+#~ msgid "template pictures"
+#~ msgstr "Шаблон «Изображение»"
+
+#~ msgid "Simple picture"
+#~ msgstr "Простое изображение"
+
+#~ msgid "Fancybox"
+#~ msgstr "Изображение Fancybox"
+
+#~ msgid "Fancybox Caption"
+#~ msgstr "Изображение Fancybox с подписью"
+
+#~ msgid "Text"
+#~ msgstr "Текст"
+
+#~ msgid "body"
+#~ msgstr "тело"
+
+#~ msgid "Simple text"
+#~ msgstr "Простой текст"
+
+#~ msgid "Blockquote"
+#~ msgstr "Цитата"
+
+#~ msgid "Table"
+#~ msgstr "Таблица"
+
+#~ msgid "Table Bordered"
+#~ msgstr "Таблица с границей"
+
+#~ msgid "Table Striped"
+#~ msgstr "Таблица в полоску"
+
+#~ msgid "Table Bordered Striped"
+#~ msgstr "Таблица в полоску с рамкой"
+
+#~ msgid "Table Condensed"
+#~ msgstr "Таблица уплотненная"
+
+#~ msgid "Hero Unit"
+#~ msgstr "Хиро юнит"
+
+#~ msgid "Alert Warning"
+#~ msgstr "Алерт «Внимание»"
+
+#~ msgid "Alert Error"
+#~ msgstr "Алерт «Ошибка»"
+
+#~ msgid "Alert Success"
+#~ msgstr "Алерт «Успешно»"
+
+#~ msgid "Alert Info"
+#~ msgstr "Алерт «Информация»"
+
+#~ msgid "Modal"
+#~ msgstr "Модальное окно"
+
+#~ msgid "Tabbable"
+#~ msgstr "Табабл"
+
+#~ msgid "Tabbable Left"
+#~ msgstr "Табабл левый"
+
+#~ msgid "Tabbable Right"
+#~ msgstr "Табабл правый"
+
+#~ msgid "Accordion"
+#~ msgstr "Аккордеон"
+
+#~ msgid "Collapsible"
+#~ msgstr "Элемент аккордеона"
+
+#~ msgid "Definition List"
+#~ msgstr "Список определений вертикальный"
+
+#~ msgid "Definition List Horizontal"
+#~ msgstr "Список определений горизонтальный"
+
+#~ msgid "Definition Item"
+#~ msgstr "Определение"
+
+#~ msgid "Well"
+#~ msgstr "Облако"
+
+#~ msgid "Placeholder for next paragraph (you may delete this text)"
+#~ msgstr "Место под следующий абзац  (вы можете удалить этот текст)"
+
+#~ msgid "Warning!"
+#~ msgstr "Внимание!"
+
+#~ msgid "January"
+#~ msgstr "Январь"
+
+#~ msgid "February"
+#~ msgstr "Февраль"
+
+#~ msgid "March"
+#~ msgstr "Март"
+
+#~ msgid "April"
+#~ msgstr "Апрель"
+
+#~ msgid "May"
+#~ msgstr "Май"
+
+#~ msgid "June"
+#~ msgstr "Июнь"
+
+#~ msgid "July"
+#~ msgstr "Июль"
+
+#~ msgid "August"
+#~ msgstr "Август"
+
+#~ msgid "September"
+#~ msgstr "Сентябрь"
+
+#~ msgid "October"
+#~ msgstr "Октябрь"
+
+#~ msgid "November"
+#~ msgstr "Ноябрь"
+
+#~ msgid "December"
+#~ msgstr "Декабрь"
+
+#~ msgid "Placeholder for next item (you may delete this text)"
+#~ msgstr "Место под следующий элемент (вы можете удалить этот текст)"
+
+#~ msgid "Hero heading"
+#~ msgstr "Заголовок Hero"
+
+#~ msgid "Modal heading"
+#~ msgstr "Заголовок модального окна"
+
+#~ msgid "Close"
+#~ msgstr "Закрыть"
+
+#~ msgid "Save changes"
+#~ msgstr "Сохранить изменения"
+
+#~ msgid "Section"
+#~ msgstr "Секция"
+
+#~ msgid "Content of section"
+#~ msgstr "Содержимое секции"
+
+#~ msgid "Placeholder for paragraph"
+#~ msgstr "Место под абзац  (вы можете удалить этот текст)"
+
+#~ msgid "Plugins"
+#~ msgstr "Плагины"
+
+#~ msgid "Please select a plugin type."
+#~ msgstr "Выберите тип плагина."
+
+#~ msgid "Edit selected plugin"
+#~ msgstr "Редактировать выбраный плагин"
+
+#~ msgid "Text editor does not support editing objects."
+#~ msgstr "Текстовый редактор не поддерживает редактирование объектов."
+
+#~ msgid "No object selected."
+#~ msgstr "Не выбрано ни одного объекта"
+
+#~ msgid "Text editor does not support inserting objects."
+#~ msgstr "Текстовый редактор не поддерживает вставку объектов."
+
+#~ msgid "Not a plugin object"
+#~ msgstr "Объект не является плагином"
+
+#~ msgid "Available Plugins"
+#~ msgstr "Доступные плагины"
+
+#~ msgid "Insert plugin"
+#~ msgstr "Вставить плагин"
+
+#~ msgid "Event"
+#~ msgstr "событие"
+
+#~ msgid "Events"
+#~ msgstr "события"
+
+#~ msgid "%(count)d event item was published"
+#~ msgid_plural "%(count)d event items where published"
+#~ msgstr[0] "%(count)d элемент опубликован"
+#~ msgstr[1] "%(count)d элемента опубликовано"
+#~ msgstr[2] "%(count)d элементов опубликовано"
+
+#~ msgid "Publish selected events"
+#~ msgstr "Опубликовать выделенные элементы"
+
+#~ msgid "%(count)d event item was unpublished"
+#~ msgid_plural "%(count)d event items where unpublished"
+#~ msgstr[0] "%(count)d элемент снят с публикации"
+#~ msgstr[1] "%(count)d элемента снято с публикации"
+#~ msgstr[2] "%(count)d элементов снято с публикации"
+
+#~ msgid "Unpublish selected events"
+#~ msgstr "Отменить публикацию выделенных элементов"
+
+#~ msgid "Latest Events"
+#~ msgstr "Последние события"
+
+#~ msgid "Latest Events Plugin"
+#~ msgstr "Плагин «Последние события»"
+
+#~ msgid "Events menu"
+#~ msgstr "Меню событий"
+
+#~ msgid "Events Title"
+#~ msgstr "Заголовок события"
+
+#~ msgid "Short Description"
+#~ msgstr "Краткое описание"
+
+#~ msgid "Location"
+#~ msgstr "Местоположение"
+
+#~ msgid "Comma separated tags"
+#~ msgstr "Теги, разделенные запятыми"
+
+#~ msgid "Start date"
+#~ msgstr "Дата начала"
+
+#~ msgid "End date"
+#~ msgstr "Дата окончания"
+
+#~ msgid "Redirect URL"
+#~ msgstr "URL для перенаправления"
+
+#~ msgid "Published"
+#~ msgstr "Опубликовано"
+
+#~ msgid "Main Content"
+#~ msgstr "Основное содержимое"
+
+#~ msgid "no title"
+#~ msgstr "Нет заголовка"
+
+#~ msgid "Number of events items to show"
+#~ msgstr "Количество показываемых событий"
+
+#~ msgid "Limits the number of items that will be displayed"
+#~ msgstr "Количество элементиов, которые будут отображены"
+
+#~ msgid "Latest Event"
+#~ msgstr "Последнее событие"
+
+#~ msgid "The selected node cannot have child nodes."
+#~ msgstr "Выбраный узел не может иметь дочерних узлов"
+
+#~ msgid "Node type"
+#~ msgstr "Тип узла"
+
+#~ msgid "node type"
+#~ msgstr "тип узла"
+
+#~ msgid "Actions"
+#~ msgstr "Действия"
+
+#~ msgid "Add sub node"
+#~ msgstr "Добавить дочерний узел"
+
+#~ msgid "View on site"
+#~ msgstr "Посмотреть на сайте"
+
+#~ msgid "Cannot place ‘{0}’ below ‘{1}’; a {2} does not allow children!"
+#~ msgstr "Cannot place ‘{0}’ below ‘{1}’; a {2} does not allow children!"
+
+#~ msgid "name of block links"
+#~ msgstr "Заголовок блока ссылок"
+
+#~ msgid "block links"
+#~ msgstr "блоки ссылок"
+
+#~ msgid "blocks links"
+#~ msgstr "блоки ссылок"
+
+#~ msgid "Not Found"
+#~ msgstr "Страница не существует<br> или не найдена"
+
+#~ msgid "This page does NOT exist."
+#~ msgstr "Страница не существует."
+
+#~ msgid "Click the link and goto to "
+#~ msgstr "Click the link and goto to "
+
+#~ msgid "main page"
+#~ msgstr "Вернутся на главную страницу"
+
+#~ msgid "Go to cart"
+#~ msgstr "Оформить"
+
+#~ msgid "Logout"
+#~ msgstr "Выйти"
+
+#~ msgid "Authorization"
+#~ msgstr "Авторизация"
+
+#~ msgid "Email"
+#~ msgstr "Электронная почта"
+
+#~ msgid "Login"
+#~ msgstr "Войти"
+
+#~ msgid "Registration"
+#~ msgstr "Регистрация"
+
+#~ msgid "Terms of use"
+#~ msgstr "Правила использования"
+
+#~ msgid "Develop by interactive agancy Excentrics"
+#~ msgstr "Сделано в «Excentrics®»"
+
+#~ msgid "Developed by"
+#~ msgstr "Сделано в"
+
+#~ msgid "Excentrics"
+#~ msgstr "Эксцентрикс"
+
+#~ msgid "The requested content cannot be loaded.<br/>Please try again later."
+#~ msgstr ""
+#~ "Запрошенные данные не могут быть загружены.<br/>Попробуйте еще раз позже."
+
+#~ msgid "Next"
+#~ msgstr "Следующее"
+
+#~ msgid "Previous"
+#~ msgstr "Предыдущее"
+
+#~ msgid "Cart"
+#~ msgstr "Корзина"
+
+#~ msgid "Profile"
+#~ msgstr "Профиль"
+
+#~ msgid "Order lists"
+#~ msgstr "Список заказов"
+
+#~ msgid "Index"
+#~ msgstr "Главная"
+
+#~ msgid "Cabinet"
+#~ msgstr "Кабинет"
+
+#~ msgid "Street address, P.O. box, company name, c/o"
+#~ msgstr "Улица, название компании, магазина, и т.п."
+
+#~ msgid "Apartment, suite, unit, building, floor, etc."
+#~ msgstr "Строение, дом, квартира, этаж, подъезд, и т.п. "
+
+#~ msgid "Save"
+#~ msgstr "Сохранить"
+
+#~ msgid "User registration"
+#~ msgstr "Регистрация"
+
+#~ msgid "Input youre e-mail"
+#~ msgstr "Введите ваш e-mail"
+
+#~ msgid "Make youre password"
+#~ msgstr "Создайте свой пароль"
+
+#~ msgid "Shipping address"
+#~ msgstr "Адрес доставки"
+
+#~ msgid "terms of an offer"
+#~ msgstr "правила использования"
+
+#~ msgid "Register"
+#~ msgstr "Регистрация"
+
+#~ msgid "Message from: "
+#~ msgstr "Сообщение от:"
+
+#~ msgid "Phone: "
+#~ msgstr "Телефон: "
+
+#~ msgid "Email: "
+#~ msgstr "Электронная почта"
+
+#~ msgid "Message: "
+#~ msgstr "Сообщение: "
+
+#~ msgid "Feedback form"
+#~ msgstr "Обратная связь"
+
+#~ msgid "Ivanov Vladimir Mikhailovich"
+#~ msgstr "Иванов Иван Иванович"
+
+#~ msgid "8(905)555-55-55"
+#~ msgstr "8(905)555-55-55"
+
+#~ msgid "mymail@mail.ru"
+#~ msgstr "mymail@mail.ru"
+
+#~ msgid "Submit"
+#~ msgstr "Отправить"
+
+#~ msgid "More"
+#~ msgstr "Подробнее"
+
+#~ msgid "Search results"
+#~ msgstr "Результаты поиска"
+
+#~ msgid "Search for:"
+#~ msgstr "Результаты поиска по запросу:"
+
+#~ msgid "No results for search"
+#~ msgstr "Нет результатов по запросу"
+
+#~ msgid "Search"
+#~ msgstr "Найти"
+
+#~ msgid "Checkout"
+#~ msgstr "Оформление заказа"
+
+#~ msgid "Confirm and payment"
+#~ msgstr "Подтвердить"
+
+#~ msgid "Update Shopping Cart"
+#~ msgstr "Пересчитать корзину"
+
+#~ msgid "Product name"
+#~ msgstr "Наименование товара"
+
+#~ msgid "Price"
+#~ msgstr "Цена"
+
+#~ msgid "Quantity"
+#~ msgstr "Количество"
+
+#~ msgid "Line subtotal"
+#~ msgstr "Итого"
+
+#~ msgid "Line Total"
+#~ msgstr "Итого по строке"
+
+#~ msgid "Empty Shopping Cart"
+#~ msgstr "Очистить корзину"
+
+#~ msgid "Cart Total"
+#~ msgstr "Итого"
+
+#~ msgid "Cart Subtotal"
+#~ msgstr "Промежуточный итог"
+
+#~ msgid "Proceed to checkout"
+#~ msgstr "Оформить заказ"
+
+#~ msgid "Shopping cart is empty"
+#~ msgstr "Корзина пуста"
+
+#~ msgid "Order-list"
+#~ msgstr "Список заказов"
+
+#~ msgid "Confirm"
+#~ msgstr "Оформить заказ"
+
+#~ msgid "Proceed"
+#~ msgstr "Подтвердить заказ"
+
+#~ msgid "Order ID:"
+#~ msgstr "Номер заказа"
+
+#~ msgid "Order Status"
+#~ msgstr "Статус заказа"
+
+#~ msgid "Shipping Address"
+#~ msgstr "Адрес доставки"
+
+#~ msgid "Billing Address"
+#~ msgstr "Адрес плательщика"
+
+#~ msgid "Unit price"
+#~ msgstr "Цена"
+
+#~ msgid "Order Subtotal"
+#~ msgstr "Промежуточный итог"
+
+#~ msgid "Order Total"
+#~ msgstr "Общая сумма"
+
+#~ msgid "Hello"
+#~ msgstr "Здравствуйте"
+
+#~ msgid "Your orders"
+#~ msgstr "Заявки"
+
+#~ msgid "Add to cart"
+#~ msgstr "В корзину"
+
+#~ msgid "Cancel"
+#~ msgstr "Отмена"
+
+#~ msgid "Order list"
+#~ msgstr "Список заказов"
+
+#~ msgid "Page Contacts Template"
+#~ msgstr "Шаблон «Контакты»"
+
+#~ msgid "Catalog"
+#~ msgstr "Каталог"
+
+#~ msgid "Page With Right Sidebar Template"
+#~ msgstr "Шаблон «С правым боковым блоком»"
+
+#~ msgid "Page With Left Sidebar Template"
+#~ msgstr "Шаблон «С левым боковым блоком»"
+
+#~ msgid "file missing!"
+#~ msgstr "файл не найден!"
+
+#~ msgid "<i class=\"icon-home\"></i>"
+#~ msgstr "<i class=\"icon-home\"></i>"
+
+#~ msgid "Password changed"
+#~ msgstr "Пароль изменен"
+
+#~ msgid "Your password is changed"
+#~ msgstr "Пароль изменен"
+
+#~ msgid "Go to homepage"
+#~ msgstr "Перейти на главную"
+
+#~ msgid "Change password"
+#~ msgstr "Изменить пароль"
+
+#~ msgid "Change"
+#~ msgstr "Изменить"
+
+#~ msgid "Password reset successfully"
+#~ msgstr "Сброс пароля завершен успешно"
+
+#~ msgid "Log in"
+#~ msgstr "Войти"
+
+#~ msgid "Confirm reset password"
+#~ msgstr "Подтверждение сброса пароля"
+
+#~ msgid "Password reset failed"
+#~ msgstr "Ошибка сброса пароля"
+
+#~ msgid "Password reset"
+#~ msgstr "Восстановление пароля"
+
+#~ msgid "Email with password reset instructions has been sent."
+#~ msgstr "Инструкция по сбросу пароля выслана Вам на электронную почту."
+
+#~ msgid "Reset password at %(site_name)s"
+#~ msgstr "Сброс пароля для %(site_name)s"
+
+#~ msgid "Reset password"
+#~ msgstr "Восстановить пароль"
+
+#~ msgid ""
+#~ "Forgot your password? Enter your email address below and we will send you "
+#~ "instructions on how to set a new password."
+#~ msgstr ""
+#~ "Забыли пароль? Введите свой адрес электронной почты ниже, и мы вышлем вам "
+#~ "инструкцию, как установить новый пароль."
+
+#~ msgid "Sent"
+#~ msgstr "Отправить"
+
+#~ msgid "subheader content"
+#~ msgstr "Содержимое шапки"
+
+#~ msgid "after promo content"
+#~ msgstr "Основное содержимое после блока Промо"
+
+#~ msgid "after promo block main"
+#~ msgstr "Основноая часть дополнительного содержимого после блока Промо "
+
+#~ msgid "after promo block sidebar"
+#~ msgstr "Сайдбар дополнительного содержимого после блока Промо "
+
+#~ msgid "Default promotion"
+#~ msgstr "По умолчанию"
+
+#~ msgid "Slider promotion"
+#~ msgstr "Карусель"
+
+#~ msgid "Slogan promotion"
+#~ msgstr "Слоган"
+
+#~ msgid ""
+#~ "\n"
+#~ "Name: %(name)s,\n"
+#~ "Phone Number: %(phone)s,\n"
+#~ "Address: %(address)s,\n"
+#~ "Zip-Code: %(zipcode)s,\n"
+#~ "City: %(city)s,\n"
+#~ "State: %(state)s,\n"
+#~ "Country: %(country)s\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Наименование: %(name)s,\n"
+#~ "Телефон: %(phone)s,\n"
+#~ "Адрес: %(address)s,\n"
+#~ "Индекс: %(zipcode)s,\n"
+#~ "Город: %(city)s,\n"
+#~ "Область: %(state)s,\n"
+#~ "Страна: %(country)s\n"
+
+#~ msgid "Countries"
+#~ msgstr "Страны"
+
+#~ msgid "Name"
+#~ msgstr "Название"
+
+#~ msgid "Phone numbers must be in +X-XXX-XXX-XXXX format."
+#~ msgstr "Номер телефона должен быть в формате +X-ХХХ-ХХХ-ХХХХ."
+
+#~ msgid "Addresses"
+#~ msgstr "Адреса"
+
+#~ msgid "Successfully proceed %(count)d %(items)s."
+#~ msgstr "Успешно обработано %(count)d %(items)s."
+
+#~ msgid "Are you sure?"
+#~ msgstr "Вы уверены?"
+
+#~ msgid "Set or unset rubrics for selected %(verbose_name_plural)s"
+#~ msgstr "Установить или убрать рубрики для выбранных %(verbose_name_plural)s"
+
+#~ msgid "Rebuild categories"
+#~ msgstr "Исправить внутреннюю структуру категорий"
+
+#~ msgid "Rubrics"
+#~ msgstr "Рубрики"
+
+#~ msgid "Description"
+#~ msgstr "Описание"
+
+#~ msgid "Parent"
+#~ msgstr "Родитель"
+
+#~ msgid "Invalid validation function specifed!"
+#~ msgstr "Задана ошибочная функция валидации"
+
+#~ msgid "Category"
+#~ msgstr "Категория"
+
+#~ msgid "Rubrics to set"
+#~ msgstr "Рубрики для установки"
+
+#~ msgid "Rubrics to unset"
+#~ msgstr "Рубрики для снятия"
+
+#~ msgid "Duplicate"
+#~ msgstr "Дублировать"
+
+#~ msgid "{name} object with primary key {key} does not exist."
+#~ msgstr "объект {name} с первичным ключом {key} не существует."
+
+#~ msgid "Number of rubrics"
+#~ msgstr "Рубрик"
+
+#~ msgid "None"
+#~ msgstr "Нет"
+
+#~ msgid "One"
+#~ msgstr "Одна"
+
+#~ msgid "Two"
+#~ msgstr "Две"
+
+#~ msgid "Three"
+#~ msgstr "Три"
+
+#~ msgid "More than three"
+#~ msgstr "Более трех"
+
+#~ msgid "Any"
+#~ msgstr "Любое количество"
+
+#~ msgid "Rebuild rubricator"
+#~ msgstr "Исправить внутреннюю структуру рубрикатора"
+
+#~ msgid "Rebate"
+#~ msgstr "Скидка"
+
+#~ msgid "Taxes total"
+#~ msgstr "Итого со сборами"
+
+#~ msgid "Taxes (10%)"
+#~ msgstr "Сбор (10%)"
+
+#~ msgid "INN"
+#~ msgstr "ИНН"
+
+#~ msgid "Full name"
+#~ msgstr "Полное наименование"
+
+#~ msgid "CommerceML user profile"
+#~ msgstr "профиль пользователя CommerceML"
+
+#~ msgid "CommerceML users profiles"
+#~ msgstr "профили пользователей CommerceML"
+
+#~ msgid "1C CommerceML v2"
+#~ msgstr "1C CommerceML v2"
+
+#~ msgid "Shipping method"
+#~ msgstr "Метод доставки"
+
+#~ msgid "Payment method"
+#~ msgstr "Метод оплаты"
+
+#~ msgid "Lack of stock."
+#~ msgstr "Недостаточное количество товара на складе"
+
+#~ msgid "The person's email address."
+#~ msgstr "Адрес электронной почты."
+
+#~ msgid "Enter a valid e-mail address."
+#~ msgstr "Задайте корректный электронный адрес"
+
+#~ msgid "Username"
+#~ msgstr "Имя пользователя"
+
+#~ msgid ""
+#~ "This value may contain only letters, numbers and @/./+/-/_ characters."
+#~ msgstr ""
+#~ "Разрешено использование только букв латинского алфавита, цифр и символов "
+#~ "@/./+/-/_."
+
+#~ msgid "Password (again)"
+#~ msgstr "Повторить пароль"
+
+#~ msgid "A user with that username already exists."
+#~ msgstr "Такое имя пользователя уже существует."
+
+#~ msgid ""
+#~ "I have read and agree to the <a href=\"%(url)s\">Terms of Service</a>"
+#~ msgstr "Я прочел и принимаю <a href=\"%(url)s\">условия использования</a>"
+
+#~ msgid "You must agree to the terms to register"
+#~ msgstr "Вы должны принять условия использования."
+
+#~ msgid ""
+#~ "Select a valid structure. Hierarchy \"%(rubric)s\" must contain only one "
+#~ "classification criterion."
+#~ msgstr ""
+#~ "Выберите структуру. Иерархия \"%(rubric)s\" должна содержать только один "
+#~ "критерий классификации."
+
+#~ msgid "Submitted rubric \"%(rubric)s\" not active."
+#~ msgstr "Представленные рубрики \"%(rubric)s\" невидимы."
+
+#~ msgid "datum-level"
+#~ msgstr "нулевой уровень"
+
+#~ msgid "Rubricator"
+#~ msgstr "Полный рубрикатор"
+
+#~ msgid "cart"
+#~ msgstr "корзина"
+
+#~ msgid "Carts"
+#~ msgstr "Корзина"
+
+#~ msgid "cart item"
+#~ msgstr "элемент корзины"
+
+#~ msgid "Cart items"
+#~ msgstr "элемент(ы) корзины"
+
+#~ msgid "category"
+#~ msgstr "категория"
+
+#~ msgid "Product Categories"
+#~ msgstr "категории товаров"
+
+#~ msgid "divider"
+#~ msgstr "разделитель"
+
+#~ msgid "Categories Dividers"
+#~ msgstr "разделитель категорий"
+
+#~ msgid "_"
+#~ msgstr "_"
+
+#~ msgid "Processing"
+#~ msgstr "Новый"
+
+#~ msgid "Confirming"
+#~ msgstr "Ожидает подтверждения"
+
+#~ msgid "Completed"
+#~ msgstr "Подтвержден"
+
+#~ msgid "Exchange start"
+#~ msgstr "Экспорт запущен"
+
+#~ msgid "Exchange completed"
+#~ msgstr "Экспорт завершен"
+
+#~ msgid "Shipped"
+#~ msgstr "Доставлен"
+
+#~ msgid "Cancelled"
+#~ msgstr "Отменен"
+
+#~ msgid "order"
+#~ msgstr "заказ"
+
+#~ msgid "Orders"
+#~ msgstr "Список заказов"
+
+#~ msgid "order item"
+#~ msgstr "элемент заказа"
+
+#~ msgid "Order items"
+#~ msgstr "Элемент(ы) заказа"
+
+#~ msgid "SKU"
+#~ msgstr "Артикул"
+
+#~ msgid "measurment unit"
+#~ msgstr "Ед. изм."
+
+#~ msgid "product"
+#~ msgstr "товар"
+
+#~ msgid "Products"
+#~ msgstr "товары"
+
+#~ msgid "product image"
+#~ msgstr "изображение"
+
+#~ msgid "Product images"
+#~ msgstr "Галерея"
+
+#~ msgid "product attribute options group"
+#~ msgstr "группа типов характеристик товара"
+
+#~ msgid "Products attribute options groups"
+#~ msgstr "Группы типов характеристик товара"
+
+#~ msgid "options group"
+#~ msgstr "Группа характеристик"
+
+#~ msgid "product attribute options"
+#~ msgstr "тип характеристики товара"
+
+#~ msgid "Products attribute options"
+#~ msgstr "Типы характеристик товара"
+
+#~ msgid "product attribute"
+#~ msgstr "атрибут товара"
+
+#~ msgid "Products attribute"
+#~ msgstr "Характеристики"
+
+#~ msgid "User profile"
+#~ msgstr "профиль пользователя"
+
+#~ msgid "Users profiles"
+#~ msgstr "профили пользователей"
+
+#~ msgid "promotion"
+#~ msgstr "промо блок"
+
+#~ msgid "Promotions"
+#~ msgstr "Промо блоки"
+
+#~ msgid "Category Promotion"
+#~ msgstr "Промо «Категория»"
+
+#~ msgid "Categories Promotions"
+#~ msgstr "Промо «Категория»"
+
+#~ msgid "HTML content"
+#~ msgstr "Текст"
+
+#~ msgid "Raw HTML"
+#~ msgstr "Текст HTML"
+
+#~ msgid "alt of the image"
+#~ msgstr "alt для изображения"
+
+#~ msgid "Image promotion"
+#~ msgstr "Промо «Изображение»"
+
+#~ msgid "Image promotions"
+#~ msgstr "Промо «Изображение»"
+
+#~ msgid "rubric"
+#~ msgstr "рубрика"
+
+#~ msgid "Product Rubricator"
+#~ msgstr "рубрики товаров"
+
+#~ msgid "facet"
+#~ msgstr "фасета"
+
+#~ msgid "Facet Rubricator"
+#~ msgstr "список фасет"
+
+#~ msgid "hierarchy"
+#~ msgstr "иерархия"
+
+#~ msgid "Hierarchy Rubricator"
+#~ msgstr "список иерархий"
+
+#~ msgid "determinant"
+#~ msgstr "детерминант"
+
+#~ msgid "Determinant Rubricator"
+#~ msgstr "список детерминант"
+
+#~ msgid "parent"
+#~ msgstr "родитель"
+
+#~ msgid "name"
+#~ msgstr "наименование"
+
+#~ msgid "rubrics"
+#~ msgstr "рубрики"
+
+#~ msgid "slug"
+#~ msgstr "Синоним"
+
+#~ msgid "Used for URLs, auto-generated from name if blank"
+#~ msgstr "Используется авто-генерация URL, если это поле пустое"
+
+#~ msgid "creation date"
+#~ msgstr "Дата создания"
+
+#~ msgid "active"
+#~ msgstr "активен"
+
+#~ msgid "path"
+#~ msgstr "путь"
+
+#~ msgid "Alphabetical"
+#~ msgstr "алфавиту"
+
+#~ msgid "Price: lowest first"
+#~ msgstr "цене &uarr;"
+
+#~ msgid "Price: highest first"
+#~ msgstr "цене &darr;"
+
+#~ msgid "Date Added: new first"
+#~ msgstr "дате добавления"
+
+#~ msgid "type"
+#~ msgstr "тип"
+
+#~ msgid "One or more characters"
+#~ msgstr "Один или более символов"
+
+#~ msgid "Integer number"
+#~ msgstr "Целое число"
+
+#~ msgid "Yes or No"
+#~ msgstr "Да или Нет"
+
+#~ msgid "Decimal number"
+#~ msgstr "Вещественное число"
+
+#~ msgid "quantity in stock"
+#~ msgstr "В наличии"
+
+#~ msgid "Picture"
+#~ msgstr "Изображение"
+
+#~ msgid "Optional caption"
+#~ msgstr "Заголовок"
+
+#~ msgid "Sort Order"
+#~ msgstr "Порядок вывода"
+
+#~ msgid "%s"
+#~ msgstr "%s"
+
+#~ msgid "Slug"
+#~ msgstr "Синоним"
+
+#~ msgid "Field Validations"
+#~ msgstr "Валидатор"
+
+#~ msgid "Error Message"
+#~ msgstr "Сообщение об ошибке"
+
+#~ msgid "Invalid Entry"
+#~ msgstr "Неверная запись"
+
+#~ msgid "attribute"
+#~ msgstr "Тип"
+
+#~ msgid "Value"
+#~ msgstr "Значение"
+
+#~ msgid "Product Attribute"
+#~ msgstr "Характеристика"
+
+#~ msgid "Product Attributes"
+#~ msgstr "Характеристики"
+
+#~ msgid "Date added"
+#~ msgstr "Дата создания"
+
+#~ msgid "Last modified"
+#~ msgstr "Дата изменения"
+
+#~ msgid "Position"
+#~ msgstr "Позиция"
+
+#~ msgid "Position on page"
+#~ msgstr ""
+#~ "Позиция на странице (от этого значения зависит каким шаблоном будет "
+#~ "оформлен промо блок)"
+
+#~ msgid "Display Order"
+#~ msgstr "порядок отображения"
+
+#~ msgid "Promotion"
+#~ msgstr "Акция"
+
+#~ msgid "standard"
+#~ msgstr "обычный"
+
+#~ msgid "show extra"
+#~ msgstr "разворачивать при выводе"
+
+#~ msgid "display mode"
+#~ msgstr "режим отображения"
+
+#~ msgid "classification method"
+#~ msgstr "метод классификации"
+
+#~ msgid "A node may not be made a child of itself."
+#~ msgstr "Узел не может быть дочерним сам себе"
+
+#~ msgid "Dummy payment"
+#~ msgstr "По договоренности"
+
+#~ msgid "Pay On Delivery"
+#~ msgstr "Оплата при получении"
+
+#~ msgid "Product Search"
+#~ msgstr "Поиск по товарам"
+
+#~ msgid "Dummy shipping"
+#~ msgstr "По договоренности"
+
+#~ msgid "Address of stock"
+#~ msgstr "Адрес склада"
+
+#~ msgid "Please choose a stock"
+#~ msgstr "Пожалуйста выберите склад"
+
+#~ msgid "Reciept of stock"
+#~ msgstr "Самовывоз"
+
+#~ msgid "Home"
+#~ msgstr "Начало"
+
+#~ msgid "Set rubrics for multiple objects"
+#~ msgstr "Установить рубрики в нескольких объектах"
+
+#~ msgid "Set the product in selected rubric"
+#~ msgstr ""
+#~ "В выбраных товарах будут установлены или сняты отмеченые ниже рубрики"
+
+#~ msgid "Yes, I'm sure"
+#~ msgstr "Да, я уверен"
+
+#~ msgid "Make youre choice"
+#~ msgstr "Выберите рубрики для внесения или снятия их в товарах"
+
+#~ msgid "Select rubrics to set:"
+#~ msgstr "Рубрики для установки:"
+
+#~ msgid "Select rubrics to unset:"
+#~ msgstr "Рубрики для снятия:"
+
+#~ msgid "Products to set or unset:"
+#~ msgstr "Товары для установки или снятия рубрик:"
+
+#~ msgid "Shortcuts"
+#~ msgstr "Ярлыки"
+
+#~ msgid "Collapse tree"
+#~ msgstr "Свернуть"
+
+#~ msgid "Expand tree"
+#~ msgstr "Развернуть"
+
+#~ msgid "Filter"
+#~ msgstr "Фильтр"
+
+#~ msgid "Delete"
+#~ msgstr "Удалить"
+
+#~ msgid "Save and add another"
+#~ msgstr "Сохранить и добавить другой объект"
+
+#~ msgid "Save and continue editing"
+#~ msgstr "Сохранить и продолжить редактирование"
+
+#~ msgid "Account successfully activated"
+#~ msgstr "Аккаунт успешно активирован"
+
+#~ msgid "Account activation failed"
+#~ msgstr "Ошибка активации аккаунта"
+
+#~ msgid "Welcome"
+#~ msgstr "Добро пожаловать"
+
+#~ msgid "Something wrong"
+#~ msgstr "Что-то произошло"
+
+#~ msgid "Your account is now activated"
+#~ msgstr "Выш аккаунт успешно активирован"
+
+#~ msgid "Account activated"
+#~ msgstr "Активация аккаунта"
+
+#~ msgid "Activate account at"
+#~ msgstr "Активация аккаунта"
+
+#~ msgid "Link is valid for %(expiration_days)s days."
+#~ msgstr "Ссылка будет активна %(expiration_days)s дней."
+
+#~ msgid "Account activation on"
+#~ msgstr "Активация аккаунта"
+
+#~ msgid "Log In"
+#~ msgstr "Войти"
+
+#~ msgid "Not member"
+#~ msgstr "У вас еще нет аккаунта"
+
+#~ msgid "Forgot password"
+#~ msgstr "Забыли пароль"
+
+#~ msgid "Logged out"
+#~ msgstr "Выход"
+
+#~ msgid "You are now logged out."
+#~ msgstr "Вы вышли из системы."
+
+#~ msgid "You are now registered"
+#~ msgstr "Вы зарегистрированы."
+
+#~ msgid "Activation email sent."
+#~ msgstr ""
+#~ "Проверьте почту, Вам отправлено письмо со ссылкой на активацию Вашего "
+#~ "аккаунта."
+
+#~ msgid "User information"
+#~ msgstr "Информация профиля"
+
+#~ msgid "Permission denied!"
+#~ msgstr "Доступ запрещен!"
+
+#~ msgid "We're sorry but you are not permitted to access this page."
+#~ msgstr "Извините, доступ на эту страницу запрещен."
+
+#~ msgid "Page not found"
+#~ msgstr "Страница не существует<br> или не найдена"
+
+#~ msgid "Page not found!"
+#~ msgstr "Страница не найдена!"
+
+#~ msgid "We're sorry but the page you are looking for can't be found."
+#~ msgstr "Извините, запрашиваемая страница не найдена."
+
+#~ msgid "Server error!"
+#~ msgstr "Серверная ошибка!"
+
+#~ msgid "We're sorry but something went terribly wrong."
+#~ msgstr "Произошла непредвиденная ошибка."
+
+#~ msgid ""
+#~ "This incident has been logged and will be addressed by an engineer as "
+#~ "soon as possible."
+#~ msgstr "Ошибка записана и будет сообщена админитратору максимально быстро."
+
+#~ msgid "Sorry!"
+#~ msgstr "Извините!"
+
+#~ msgid "Return to previous page"
+#~ msgstr "Вернуться назад"
+
+#~ msgid "Order #"
+#~ msgstr "Заказ №"
+
+#~ msgid "Order"
+#~ msgstr "Заказ"
+
+#~ msgid "Date"
+#~ msgstr "Дата"
+
+#~ msgid "Total"
+#~ msgstr "Итого"
+
+#~ msgid "Status"
+#~ msgstr "Состояние"
+
+#~ msgid "In stock"
+#~ msgstr "Есть в наличии"
+
+#~ msgid "Out of stock"
+#~ msgstr "Нет в наличии"
+
+#~ msgid "Product description"
+#~ msgstr "Описание товара"
+
+#~ msgid "Attributes"
+#~ msgstr "Характеристики"
+
+#~ msgid "Terms of service"
+#~ msgstr "Условия использования"
+
+#~ msgid "Price per unit"
+#~ msgstr "Цена за ед."
+
+#~ msgid "Subtotal"
+#~ msgstr "Промежуточный итог"
+
+#~ msgid "Your shopping cart is empty."
+#~ msgstr "Ваша корзина пуста."
+
+#~ msgid "Delete item"
+#~ msgstr "удалить элемент"
+
+#~ msgid "Quantity:"
+#~ msgstr "Количество"
+
+#~ msgid "Add to Cart"
+#~ msgstr "В корзину"
+
+#~ msgid "Sort:"
+#~ msgstr "Сортировать по"
+
+#~ msgid "items"
+#~ msgstr "элемент(ы)"
+
+#~ msgid "of"
+#~ msgstr "из"
+
+#~ msgid "Billing address"
+#~ msgstr "Адрес плательщика"
+
+#~ msgid "My delivery and billing addresses are the same."
+#~ msgstr "Адреса доставки и оплаты совпадают"
+
+#~ msgid "Billing Payment and Shipping Methods"
+#~ msgstr "Методы оплаты и доставки"
+
+#~ msgid "Extra info"
+#~ msgstr "Дополнительная информация"
+
+#~ msgid "Thank you for your order"
+#~ msgstr "Спасибо за заказ"
+
+#~ msgid "Your order has been placed"
+#~ msgstr "Ваш заказ принят"
+
+#~ msgid "Go to the order list page"
+#~ msgstr "Вернутся на список заказов"
+
+#~ msgid "all prices are specified in rubles"
+#~ msgstr "все цены указаны в рублях"
+
+#~ msgid "My orders"
+#~ msgstr "Мои заказы"
+
+#~ msgid "Log out"
+#~ msgstr "Выйти"
+
+#~ msgid "All"
+#~ msgstr "Все"
+
+#~ msgid "We are recieve new order at"
+#~ msgstr "Получена новая заявка"
+
+#~ msgid "rub"
+#~ msgstr "руб."
+
+#~ msgid "New order at"
+#~ msgstr "Новый заказ"
+
+#~ msgid "empty"
+#~ msgstr "пустая"
+
+#~ msgid "YES"
+#~ msgstr "ДА"
+
+#~ msgid "NO"
+#~ msgstr "НЕТ"
+
+#~ msgid "%s has been moved to a new position."
+#~ msgstr "%s был перемещен в нужную позицию."
+
+#~ msgid "Did not understand moving instruction."
+#~ msgstr "Не определен способ перемещения элемента."
+
+#~ msgid "actions"
+#~ msgstr "Действия"
+
+#~ msgid "Successfully deleted %s items."
+#~ msgstr "Успешно удалено %s элементов."
+
+#~ msgid "Delete selected %(verbose_name_plural)s"
+#~ msgstr "Удалить выбранные %(verbose_name_plural)s"
+
+#~ msgid "No %(verbose_name)s found matching the query"
+#~ msgstr "Не найден %(verbose_name)s соответствующий запросу"
+
+#~ msgid "Empty list and '%(class_name)s.allow_empty' is False."
+#~ msgstr "Empty list and '%(class_name)s.allow_empty' is False."
+
+#~ msgid "before promo content"
+#~ msgstr "Содержимое перед блоком промо"
+
+#~ msgid "Selected product:"
+#~ msgstr "Товары:"
+
+#~ msgid "Quantity in stock"
+#~ msgstr "На складе"
+
+#~ msgid "Unit name"
+#~ msgstr "Ед. изм."
+
+#~ msgid "%s pcs"
+#~ msgstr "%s шт."
+
+#~ msgid "Image of Product %s"
+#~ msgstr "товар %s"
+
+#~ msgid "Image with caption \"%s\""
+#~ msgstr "заголовок \"%s\""
+
+#~ msgid "Extended parameters"
+#~ msgstr "Дополнительные параметры"
+
+#~ msgid "Base image"
+#~ msgstr "Базовое изображение"
+
+#~ msgid "Attribute name"
+#~ msgstr "Имя"
+
+#~ msgid "Not in stock"
+#~ msgstr "Нет в наличии"
+
+#~ msgid "My account"
+#~ msgstr "Мой аккаунт"
+
+#~ msgid "Back to the main page"
+#~ msgstr "Вернутся на главную страницу"
+
+#~ msgid "Shop Name"
+#~ msgstr "Название магазина"
+
+#~ msgid "Back to the order list page"
+#~ msgstr "Вернутся на список заказов"
+
+#~ msgid "Sign in"
+#~ msgstr "Войти"
+
+#~ msgid "Reset it"
+#~ msgstr "Сбросить"
+
+#~ msgid "Logged in"
+#~ msgstr "Пользователь"
+
+#~ msgid "My profile"
+#~ msgstr "Мой профиль"
+
+#~ msgid "products"
+#~ msgstr "товары"
+
+#~ msgid "Page Profile Template"
+#~ msgstr "Шаблон «Профиль»"
+
+#~ msgid "Page Order list Template"
+#~ msgstr "Шаблон «Список заявок»"
+
+#~ msgid "Page Product Detail Template"
+#~ msgstr "Шаблон «Детальная информация по товару»"
+
+#~ msgid "Registration status"
+#~ msgstr "Состояние регистрации"
+
+#~ msgid "registration_success"
+#~ msgstr "registration_success"
+
+#~ msgid "Activation link send to your e-mail."
+#~ msgstr "Activation link send to your e-mail."
+
+#~ msgid "Registration fail. Please try again later."
+#~ msgstr "Неуспешная регистрация. Попробуйте повторить регистрацию позднее."
+
+#~ msgid "Events list"
+#~ msgstr "Последние события"
+
+#~ msgid "RegistrationMailSettings"
+#~ msgstr "Настройки почты"
+
+#~ msgid "email"
+#~ msgstr "Электронная почта"
+
+#~ msgid "Order date"
+#~ msgstr "Дата заявки"
+
+#~ msgid "Registration Order"
+#~ msgstr "Заявка на регистрацию"
+
+#~ msgid "Registration Orders"
+#~ msgstr "Заявки на регистрацию"
+
+#~ msgid "base"
+#~ msgstr "Основные"
+
+#~ msgid "Your shopping cart"
+#~ msgstr "Ваша корзина"
+
+#~ msgid "visible"
+#~ msgstr "отображать"
+
+#~ msgid "hidden"
+#~ msgstr "скрывать"
