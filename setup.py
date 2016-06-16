@@ -55,7 +55,7 @@ setup(
     data_files=data_files,
     cmdclass=cmdclasses,
     scripts=[],
-    url='https://github.com/Excentrics/beautiful-fields.git',
+    url='https://github.com/Excentrics/beautiful_fields.git',
     license='LICENSE.txt',
     description='Beautiful fields.',
     long_description=open('README.txt').read(),
